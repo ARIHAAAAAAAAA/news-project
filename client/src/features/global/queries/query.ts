@@ -23,3 +23,21 @@ export const GET_NEWS = gql`
   }
   }
 `;
+
+export const GET_NEWS_SOURCE = gql`
+  query{
+    getNewsSources {
+    sources {
+      category
+      country
+      description
+      language
+      id
+      name
+      url
+    }
+    status
+  }
+}
+`;
+

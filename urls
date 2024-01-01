@@ -1,0 +1,39 @@
+everything
+
+1:
+All articles about Bitcoin
+GET https://newsapi.org/v2/everything?q=bitcoin&apiKey=
+2:
+All articles mentioning Apple from yesterday, sorted by popular publishers first
+GET https://newsapi.org/v2/everything?q=apple&from=2023-12-25&to=2023-12-25&sortBy=popularity&apiKey=
+3:
+All articles published by TechCrunch and The Next Web
+GET https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=
+
+Top headlines
+
+1:
+Top headlines in the US
+GET https://newsapi.org/v2/top-headlines?country=us&apiKey=
+2:
+Top headlines from BBC News
+GET https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=
+3:
+Top business headlines from Germany
+GET https://newsapi.org/v2/top-headlines?country=de&category=business&apiKe
+4:
+Top headlines about Trump
+GET https://newsapi.org/v2/top-headlines?q=trump&apiKey=
+
+Sources
+חוזר אחרת
+1:
+All sources
+GET https://newsapi.org/v2/top-headlines/sources?apiKey=API_KEY
+2:
+Just Business sources
+GET https://newsapi.org/v2/top-headlines/sources?category=businessapiKey=
+3:
+Sources in the US
+GET https://newsapi.org/v2/top-headlines/sources?country=usapiKey=API_KEY
+4:
