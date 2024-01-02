@@ -4,7 +4,7 @@ import News from "../src/features/global/components/News"
 import Home from "../src/features/global/pages/Home"
 import Source from "../src/features/global/components/Source";
 import LocationComponent from "../src/features/global/components/Location";
-import Register from "../src/features/global/pages/Register";
+import Register from "../src/features/users/pages/Register";
 
 function App() {
 

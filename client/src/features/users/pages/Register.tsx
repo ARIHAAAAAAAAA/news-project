@@ -13,7 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 // import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useMutation } from '@apollo/client';
-import { REGISTER } from '../../../api/usersQuery';
+import { REGISTER } from '../../users/graphql/usersQuery';
 
 
 

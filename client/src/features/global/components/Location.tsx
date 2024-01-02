@@ -6,6 +6,7 @@ const LocationComponent = () => {
     latitude: null,
     longitude: null,
   });
+  
   const [error, setError] = useState<string | null>(null);
 
   const getLocation = () => {
