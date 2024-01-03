@@ -9,6 +9,7 @@ const Title = styled.h1`
   color: #333;
 `;
 
+
 const Image = styled.img`
   border-radius: 10px; 
   width:100%;
